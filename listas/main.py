@@ -33,5 +33,5 @@ print(lista)
 #  disco mostrar la palabra y la ubicacion de de su indice pasitivo 
 
 # crearuna lista que va a contener los numeros del 1 al 10
-# crear una funcion que me permita recibir como parametro una lista
-# la funcion tentra que retornar un nuevo array con todos los numero pares del 1 al 10  
+# crear una funcion que me permita recibir como parametro una listala funcion tentra que retornar un nuevo 
+# array con todos los numero pares del 1 al 10  
