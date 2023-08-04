@@ -1,10 +1,10 @@
 def miObjeto(**valores):
     nuevoObjeto={
-        "Nombre":valores["1"],
-        "Apellido":valores["2"],
-        "Edad":valores["3"],
-        "Sexo":valores["4"],
-        "Dirección":volores["5"]
+        "Nombre":valores["a"],
+        "Apellido":valores["b"],
+        "Edad":valores["c"],
+        "Sexo":valores["d"],
+        "Dirección":volores["e"]
     }
     return nuevoObjeto
-print(miObjeto( 1="jhonatan",2="flores",3="19",4="v",5="alla"))
+print(miObjeto( a ="jhonatan",b="flores",c="19",d="v",e="alla"))

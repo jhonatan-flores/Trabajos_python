@@ -35,3 +35,7 @@ print(lista)
 # crearuna lista que va a contener los numeros del 1 al 10
 # crear una funcion que me permita recibir como parametro una listala funcion tentra que retornar un nuevo 
 # array con todos los numero pares del 1 al 10  
+
+# crear una funcion que reciba como parametro una lista array y retorne una 
+# lista de objeto que tendra las caracteristicas de cada elementos 
+# del array lista
