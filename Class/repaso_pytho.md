@@ -61,4 +61,48 @@ alumno ={
 'sexo' : 'todos los dias'
 'amigos': 'hans' , 'cristhian','nadine','edwin'
 }
-## 5. FUNCIONES
+ALUMNOS=[{},{},{}]
+## 5. CONTROLES DE FLUJO :
+SOLO EXISTEN 2 
+### DECICIONES:
+
+SOLOLO SE EJECUTA EL CODIGO SI LA CONDICION ES VERDERA PODEMOS HACER QUE SI LA COONDICION SEA FALSA SE EJECUTE ORO CODIGO
+SINTAXIS : PRIMERO ESPECIFICAR EL CODIGO  QUE SE EJECUTARA SI CUMPLE UNA CONDICION
+```PYTHON
+if <condicion>:
+    ##el codigo que deseamos ejecutar si la condicion es verdad 
+    print('ejecuta esto')
+    ##aqui estamos fuera del if o del si este codigo siempre se ejecutara no depende del if 
+```
+```python
+# si queremos que se ejecute un codigo en caso que sea falso 
+if <condicion falsa>:
+    print('solo imprime si es verdad')
+else:
+    print('solo imprime si es falso')
+```
+```python
+#ejemplo
+if 15 > 18:
+    print('si es verdad imprime esto')
+else:
+    print('si es falso imprime esto')
+```
+```python
+if 15*2 ==30:
+    print('si es verdad imprime esto')
+else:
+    print('si es falso imprime esto')
+```
+### CICLOS: 
+existen 2 tipos
+#### iterar cuando sabes la cantidad de veces que vamos a repetir
+para este caso esxiste for 
+
+sintaxis despues de la palabra reservada for deberemos crear una variable de almacene el numero que iremos luego tendremos que indicar el rango a itera los elementos a iterar
+```python
+vocales= ['a','e','i','o','u']
+for i in vocales:
+    print(i)
+```  
+#### cuando no sabemos la cantidad de veces de repiter 
