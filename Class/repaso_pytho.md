@@ -194,3 +194,33 @@ cadena='https://github.com/NadineAtoccsaOrtiz/CLASES/tree/main/REPASO_PY'
 id_url=cadena.split('_').pop()
 print(id_url)
 ```
+## 2. funciones creadas
+####  son mini programas tambien se conoce como modulos o fragmento de codigo de uso exclusivo 
+### funcioines propias 
+### pasos para crear una funcionpropia
+#### 1. hacer uso de la palabra reservada lef
+#### 2. definir un nombre  de funcion que describa que tarea va a realizar 
+#### 3. establecer los parametros que resivira la funcion entre parantecis()
+#### 4. establecer que valor de dato va retorna mi funcion con la palabra reservada return
+#### > obcervacion ==> tambien podemos hacer uso de la funcion print () para retornar mensaje en nuestra funcion
+#### existen 2 tipos de funciones los que resiven parametros y los que no
+```python
+def saludo():
+    print('hola este es un saludo')
+```
+#### como hacemos uso de la funcion ?
+#### nombre de la funcion y parentesis
+### funcion con parametro
+```python
+def mi_print(texto):
+    print(texto)
+
+print('hola este es print de python')
+mi_print('hola este es mi print creado')
+```
+```python
+def suma(a,b):
+    total=a+b
+    return total
+mi_print(suma(45+12))
+```

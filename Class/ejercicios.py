@@ -22,9 +22,13 @@
 #     print("¡ Ganaste el descuento del 20% ! ahora pagaras:",total_con_descuento,"soles")
 # else:
 #     print("no aplicas al descuento. el monto del descuento es :",precio_compra, "soles") 
-
-lista=[15,14,16]
-elim=lista.pop()
-eliminado=lista
-print(lista)
-print(eliminado)
+def mi_print(texto):
+    print(texto)
+lista=[1,2,3,4,5,6,7,8,9]
+def mi_max(lista):
+    numero_mayor=lista[0]
+    for numero in lista:
+        if numero > numero_mayor:
+            numero_mayor=numero
+    return numero_mayor
+mi_print(mi_max(lista))
