@@ -106,3 +106,91 @@ for i in vocales:
     print(i)
 ```  
 #### cuando no sabemos la cantidad de veces de repiter 
+## funciones: 
+### Existen 2 tipos de funciones:
+
+Propias del lenguaje
+
+Ya vienen creadas e insertadas en el lenguaje en python y estan listas para ser usadas. Estructura de uso de una funcion
+
+tiene el nombre seguido de un parentecis.
+
+funcion()
+dentro del parentesis podremos pasarle datos que necsita la funcion para ejecutarse.
+
+Esta es un afuncion que sirve para mostrtar datos por medio de la consola.
+```python
+print('hola')
+len('dato')
+```
+Esta funcion nos permite saber la longitud de una lista o un string. Len nos devuelve un numero
+```python
+len('dato')
+print(len([1,2,3,4,5]))
+```
+Esta es una funcion que se detiene a esperar que el usuario introduzca informacion. Entre parentesis podremos escribir un mensaje que indique que accion realizara el usuario.
+```python
+input('ingresa un dato')
+```
+funciones creadas
+#### max
+esta funcion nos muestra el numero mayor de una lista 
+```python
+lista=[45,12,34,65]
+numero_mayor=max(lista)
+print(numero_mayor)
+```
+#### min 
+esta funcion nos muestra el numero menor de una lista
+```python
+lista=[20,16,37,26]
+numero_menor=min(lista)
+print(numero_menor)
+``` 
+#### de string a entero
+funcion para comvertir de string a un numero entero
+```python
+numero_string=('28')
+numero_entero=int(numero_string)
+print(numero_entero)
+```
+#### de entero a string
+funcion de combertir de un numero entero a string
+```python
+numero_entero=(28)
+numero_string=str(numero_entero)
+print(numero_string)
+```
+#### funcion de python que nos permita agregar elementos al final de una lista
+```python
+lista=[15,14,14]
+elemento=[100]
+lista.append(lista)
+print(lista)
+```
+#### funcion que elimina el ultimo
+```python
+lista=[15,14,16]
+elim=lista.pop()
+eliminado=lista
+print(lista)
+print(eliminado)
+```
+#### funcion que nos permite agregar elemento en cualquier posicion de mi lista para eso se le tiene que pasar 2 parametros, primero indicarle el indice segundo el dato que se va a agregar
+```python
+lista_nombres=['jory','nadine','bichota']
+lista_nombre.insert(1,'satan')
+print(lista_nombre)
+```  
+#### funcion que nos permite eliminar datos de cualquier pocicion de una lista. este funcion recibe solo el elemto que deseamos eliminar(remove)
+```python
+lista=[4,5,6,7,8]
+lista.remove(6)
+print(lista)
+``` 
+#### funcion que nos permite dividir en una lista una cadena(split)
+```python
+cadena='https://github.com/NadineAtoccsaOrtiz/CLASES/tree/main/REPASO_PY'
+id_url=cadena.split('_').pop()
+print(id_url)
+```
