@@ -194,33 +194,72 @@ cadena='https://github.com/NadineAtoccsaOrtiz/CLASES/tree/main/REPASO_PY'
 id_url=cadena.split('_').pop()
 print(id_url)
 ```
-## 2. funciones creadas
-####  son mini programas tambien se conoce como modulos o fragmento de codigo de uso exclusivo 
-### funcioines propias 
-### pasos para crear una funcionpropia
-#### 1. hacer uso de la palabra reservada lef
-#### 2. definir un nombre  de funcion que describa que tarea va a realizar 
-#### 3. establecer los parametros que resivira la funcion entre parantecis()
-#### 4. establecer que valor de dato va retorna mi funcion con la palabra reservada return
-#### > obcervacion ==> tambien podemos hacer uso de la funcion print () para retornar mensaje en nuestra funcion
-#### existen 2 tipos de funciones los que resiven parametros y los que no
+### 2. funciones propias
+Una funcion son mini programas, tambien se le conoce como modulos o fragmentos de codigo de uso exclusivo
+pasos para crear un fruncion propio
+1. hacer uso de la palabra reservada def
+2. definir un nombre de función que describe que tarea va a realizar
+3. establecer los parámetros que resivira la función entre parentesis ()
+4. establecer que valor o dato va retornar mi funcion con la palabra reservada "return"
+observacion =>> tambien podemos hacer uso de la funcion print() para devolver un mensaje en nuestra funcion
+existen dos tipos de funciones los que no resiven ningun parametro y los que resiven parametros
+funcion sin parametros
 ```python
 def saludo():
-    print('hola este es un saludo')
-```
-#### como hacemos uso de la funcion ?
-#### nombre de la funcion y parentesis
-### funcion con parametro
-```python
+    print("hola este es un saludo")
+# como hacemos uso de la funcion??
+# nombre de la funcion y parentesis
+saludo()
+funcion con parametros
 def mi_print(texto):
     print(texto)
-
-print('hola este es print de python')
-mi_print('hola este es mi print creado')
 ```
 ```python
+print("hola este es print de python")
+mi_print("hola este es mi print creado")
 def suma(a,b):
     total=a+b
     return total
-mi_print(suma(45+12))
+```
+```python
+mi_print(suma(45,12)) ##=> 57
+eJemplo
+lista=[12,4,45,78,3,1]
+mi_print(max(lista)) # =>78
+```
+```python
+def mi_max(lista):
+    numero_mayor=lista[0]
+    for numero in lista:
+        if numero > numero_mayor:
+            numero_mayor=numero
+    return numero_mayor
+mi_print(mi_max(lista))
+lista=[12,4,45,78,3,1]
+mi_print(min(lista)) # =>78
+```
+```python
+def mi_min(lista):
+    numero_menor=lista[0]
+    for numero in lista:
+        if numero < numero_menor:
+            numero_menor=numero
+    return numero_menor
+mi_print(mi_min(lista))
+funciones con muchos parámetros
+def funcion(*muchos_parametros):    # el * es para poner varios parametros
+    total=0
+    for numero in muchos_parametros:
+        total=total+numero
+    return total
+```
+```python
+print(funcion(45,78,45,415))
+def datos(*args):
+    nombre=args[0]
+    apellido=args[1]
+    edad=args[2]
+    return f"mi nombre es,{nombre},{apellido} y mi edad es {edad}"
+
+print(datos("edwin","lopez","19"))
 ```
