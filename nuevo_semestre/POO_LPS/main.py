@@ -24,3 +24,24 @@ print(respuesta.corre(10))
 # Llama a los métodos del perro
 perro.ladrar()
 perro.jugar()
+#crear un sistema para gestion o control de stock de productos.
+# caso de uso
+# historias de usuario
+# producto ower
+# baclog
+# MVP
+# prototipos de Mierda
+
+# entidades entitis 
+# la base de datos sobre lo que voy a trabajar
+# averiguar formas normales(normalizacion de base de datos)
+productos=[
+    (
+
+    )
+]
+
+# casos de uso
+class producto:
+
+    pass 
