@@ -9,53 +9,67 @@
 # entidades entitis 
 # la base de datos sobre lo que voy a trabajar
 # averiguar formas normales(normalizacion de base de datos)
-
+producto=[ 
+    {
+        'id'         :1,
+        'nombre'     :'arroz',
+        'descripcion':'costeño costal x 100k',
+        'stokc'      :5,
+        'unidad'     :125,
+        'moneda'     :'soles'
+    }
+]
 # casos de uso
 class Producto:
-    def __init__(self ,nombre, descripcion, stock,unidad, precio, moneda="soles"):
-        self.nombre=nombre
+    # atributos de instancia
+    def init(self,nombre,descripcion,stock,
+    unidad,precio,moneda="soles"):
+        self.nombre     =nombre
         self.descripcion=descripcion
-        self.stock=stock
-        self.unidad=unidad
-        self.precio=precio
-        self.moneda=moneda
-# creacion de productos
-def mostrar_productos(self):
-    mensaje=f'''
-    tienes {len(productos)}
-    los productos son: {productos}
-    '''
-    return mensaje
-
-
-def registrar_producto(self):
-    nuevo_id=len(productos)+1
-    producto_nuevo={
-        "id":nuevo_id,
-        "nombre":self.nombre,
-        "descricion":self.descripcion,
-        "stock":self.stock,
-        "unidad":self.unidad,
-        "moneda":self.moneda
-    }
-    registro_producto=productos.append
-    (producto_nuevo)
-    return f'El siguiente producto se registro exitosamente:{producto_nuevo}'
-
-def mostrar_producto(self,id):
-    producto_buscar=productos[id-1]
-    return producto_buscar
-
-def eliminar_producto(self,id):
-    producto_eliminar=productos.pop(id-1)
-    return f'el siguente producto fue eliminado exitosamente{producto_eliminar}'
-
-def actualizar_producto(self,id):
-    pass
-produc=Producto ("aceite","extra virgen",2,"litro x botella",12)
-
-print(produc.registrar_productos())
-print(produc.mostrar_productos())
-print(produc.mostrar_producto(1))
-print(produc.eliminar_producto(1))
-print(produc.mostrar_productos())
+        self.stock      =stock
+        self.precio     =precio
+        self.moneda     =moneda
+    #creacion de metodos
+    def mostrar_productos(self):
+        mensaje=f"""tienes {len(productos)} productos los productos son: {productos}"""
+        return mensaje
+    
+    def registrar_producto(self):
+        nuevo_id=len(producto)+1
+        producto_nuevo={
+            "id"         :nuevo_id,
+            "nombre"     :self    .nombre,
+            "descripcion":self    .descripcion,
+            "stock"      :self    .stock,
+            "unidad"     :self    .unidad,
+            "precio"     :self    .precio,
+            "moneda"     :self    .moneda
+        
+        }
+        registro_producto=producto.append
+        (producto_nuevo)
+        return f"el sieguiente producto se registro exitosamente{producto_nuevo}"
+        
+    def mostrar_producto(self,id):
+        producto_buscar=producto[id-1]
+        return producto_buscar
+    
+    def eliminar_producto(self,id):
+        producto_eliminar=producto.pop(id-1)
+        return f"el siguiente producto fue eliminado {producto_eliminar}"
+        
+    def actualizar_producto(self, id,clave,valor):
+        el=valor
+        producto_actualizar=list(filter(lambda el:el[clave]==id,productos))[0].update({valor:valor})
+        return "se actualizo"
+# programacion funcional en python 
+# metodo funcuional filter retorna una lista con el elemnto que sea true de una lista 
+# funciones lista anonimos o autoejecutados en python se les conoce como funciones 
+# lambda-> funcion anonimo
+# su uso estroctura 
+        
+prod=Producto("aceite","extra virgen",2,"botella x litro",12.50)
+print(prod.registrar_producto())
+print(prod.mostar_productos())
+print(prod.actualizar_producto(125,"precio",130))
+print(prod.mostrar_producto())

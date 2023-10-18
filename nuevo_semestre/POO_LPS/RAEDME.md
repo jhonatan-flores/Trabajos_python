@@ -8,3 +8,21 @@
 se basa en objetos 
 
 >poo un objeto es toda entidad  que se pueda escrivir atravez de **atributos** y **funciones** que puede realizar la entidad
+# tarea
+### crear una lista con 10 objetos que contengan los datos de las tiendas comerciales
+> ejemplo:
+> '''python
+tienda[
+    {
+        "nombre":"el pollito",
+        "categoria": ["bodega"],
+        "horario_atencion":{
+            "dia":7am-12m,
+            "tarde":8pm-12pm
+        }
+        "gerente":"nadine"
+    }
+]
+'''
+#### observacion: 
+las categorias son 4: abarrotes, farmacia, restaurantes,bodega
