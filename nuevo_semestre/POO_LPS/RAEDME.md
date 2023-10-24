@@ -26,3 +26,5 @@ tienda[
 '''
 #### observacion: 
 las categorias son 4: abarrotes, farmacia, restaurantes,bodega
+#### observacion:
+los gerentes podran ser 4: Edwin, China, Crhistian, Nadine
