@@ -1,0 +1,574 @@
+[
+    {
+        "label": "juegodppt",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "juegodppt",
+        "description": "juegodppt",
+        "detail": "juegodppt",
+        "documentation": {}
+    },
+    {
+        "label": "mensaje",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "mensaje",
+        "description": "mensaje",
+        "detail": "mensaje",
+        "documentation": {}
+    },
+    {
+        "label": "pedirdatos",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pedirdatos",
+        "description": "pedirdatos",
+        "detail": "pedirdatos",
+        "documentation": {}
+    },
+    {
+        "label": "inicioproceso",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "inicioproceso",
+        "description": "inicioproceso",
+        "detail": "inicioproceso",
+        "documentation": {}
+    },
+    {
+        "label": "tkinter",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "td",
+        "description": "td",
+        "isExtraImport": true,
+        "detail": "td",
+        "documentation": {}
+    },
+    {
+        "label": "factorial",
+        "kind": 2,
+        "importPath": "Class.ejercicios",
+        "description": "Class.ejercicios",
+        "peekOfCode": "def factorial(n):\n    if n == 0:\n        return 1\n    if num < 0: \n        print(\"error, ingresaste un numero negativo\")\n    else:\n        return n * factorial(n - 1)\nresult = factorial(num)\nprint(result)\n# 7. Escribir una funcion que resiva como parametros una lista de numeros y retorne una nueva ",
+        "detail": "Class.ejercicios",
+        "documentation": {}
+    },
+    {
+        "label": "calcular_cuadrados",
+        "kind": 2,
+        "importPath": "Class.ejercicios",
+        "description": "Class.ejercicios",
+        "peekOfCode": "def calcular_cuadrados(lista_numeros):\n    cuadrados = []  # Crear una lista vacía para almacenar los cuadrados\n    for numero in lista_numeros:\n        cuadrado = numero ** 2  # Calcular el cuadrado del número\n        cuadrados.append(cuadrado)  # Agregar el cuadrado a la lista\n    return cuadrados\n# Ejemplo de uso\nnumeros = [1, 2, 3, 4, 5]\ncuadrados = calcular_cuadrados(numeros)\nprint(cuadrados)  # Debería imprimir [1, 4, 9, 16, 25]",
+        "detail": "Class.ejercicios",
+        "documentation": {}
+    },
+    {
+        "label": "contar_palabras",
+        "kind": 2,
+        "importPath": "Class.ejercicios",
+        "description": "Class.ejercicios",
+        "peekOfCode": "def contar_palabras(cadena):\n    # Dividir la cadena en palabras\n    palabras = cadena.split()\n    # Crear un diccionario para almacenar las frecuencias\n    frecuencias = {}\n    # Contar la frecuencia de cada palabra\n    for palabra in palabras:\n        if palabra in frecuencias:\n            frecuencias[palabra] += 1\n        else:",
+        "detail": "Class.ejercicios",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "Class.ejercicios",
+        "description": "Class.ejercicios",
+        "peekOfCode": "num = int(input('ingresa un numero positivo: '))\ndef factorial(n):\n    if n == 0:\n        return 1\n    if num < 0: \n        print(\"error, ingresaste un numero negativo\")\n    else:\n        return n * factorial(n - 1)\nresult = factorial(num)\nprint(result)",
+        "detail": "Class.ejercicios",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "Class.ejercicios",
+        "description": "Class.ejercicios",
+        "peekOfCode": "result = factorial(num)\nprint(result)\n# 7. Escribir una funcion que resiva como parametros una lista de numeros y retorne una nueva \n# lista con el cuadro de cuadrado numero de la lista ingresada \ndef calcular_cuadrados(lista_numeros):\n    cuadrados = []  # Crear una lista vacía para almacenar los cuadrados\n    for numero in lista_numeros:\n        cuadrado = numero ** 2  # Calcular el cuadrado del número\n        cuadrados.append(cuadrado)  # Agregar el cuadrado a la lista\n    return cuadrados",
+        "detail": "Class.ejercicios",
+        "documentation": {}
+    },
+    {
+        "label": "numeros",
+        "kind": 5,
+        "importPath": "Class.ejercicios",
+        "description": "Class.ejercicios",
+        "peekOfCode": "numeros = [1, 2, 3, 4, 5]\ncuadrados = calcular_cuadrados(numeros)\nprint(cuadrados)  # Debería imprimir [1, 4, 9, 16, 25]\n# 8. Escribir un programa que reciva una cadena de careacteres y devuelva un objeto\n# concada palabra que contiene y su frecuencia\ndef contar_palabras(cadena):\n    # Dividir la cadena en palabras\n    palabras = cadena.split()\n    # Crear un diccionario para almacenar las frecuencias\n    frecuencias = {}",
+        "detail": "Class.ejercicios",
+        "documentation": {}
+    },
+    {
+        "label": "cuadrados",
+        "kind": 5,
+        "importPath": "Class.ejercicios",
+        "description": "Class.ejercicios",
+        "peekOfCode": "cuadrados = calcular_cuadrados(numeros)\nprint(cuadrados)  # Debería imprimir [1, 4, 9, 16, 25]\n# 8. Escribir un programa que reciva una cadena de careacteres y devuelva un objeto\n# concada palabra que contiene y su frecuencia\ndef contar_palabras(cadena):\n    # Dividir la cadena en palabras\n    palabras = cadena.split()\n    # Crear un diccionario para almacenar las frecuencias\n    frecuencias = {}\n    # Contar la frecuencia de cada palabra",
+        "detail": "Class.ejercicios",
+        "documentation": {}
+    },
+    {
+        "label": "texto",
+        "kind": 5,
+        "importPath": "Class.ejercicios",
+        "description": "Class.ejercicios",
+        "peekOfCode": "texto = \"Hola mundo, hola Python, mundo Python\"\nresultado = contar_palabras(texto)\nprint(resultado)",
+        "detail": "Class.ejercicios",
+        "documentation": {}
+    },
+    {
+        "label": "resultado",
+        "kind": 5,
+        "importPath": "Class.ejercicios",
+        "description": "Class.ejercicios",
+        "peekOfCode": "resultado = contar_palabras(texto)\nprint(resultado)",
+        "detail": "Class.ejercicios",
+        "documentation": {}
+    },
+    {
+        "label": "numeromenor",
+        "kind": 2,
+        "importPath": "ejercicios.numero menor",
+        "description": "ejercicios.numero menor",
+        "peekOfCode": "def numeromenor(arraynumeros):\n    menor=arraynumeros[0]\n    for numero in arraynumeros:\n        if numero < menor:\n            menor=numero\n    return menor\nprint(numeromenor(lista))\nlista=[2,5,8,4,10]\ndef numeroMayor(arraynumeros):\n    mayor=arraynumeros[0]",
+        "detail": "ejercicios.numero menor",
+        "documentation": {}
+    },
+    {
+        "label": "numeroMayor",
+        "kind": 2,
+        "importPath": "ejercicios.numero menor",
+        "description": "ejercicios.numero menor",
+        "peekOfCode": "def numeroMayor(arraynumeros):\n    mayor=arraynumeros[0]\n    for numero in arraynumeros:\n        if numero>mayor:\n            mayor=numero\n    return mayor\nprint(numeroMayor(lista))",
+        "detail": "ejercicios.numero menor",
+        "documentation": {}
+    },
+    {
+        "label": "sumadenumeros",
+        "kind": 2,
+        "importPath": "ejercicios.suma",
+        "description": "ejercicios.suma",
+        "peekOfCode": "def sumadenumeros(arraynumeros):\n    totalsuma=0\n    for numero in arraynumeros:\n        totalsuma +=numero\n    return totalsuma\nprint(sumadenumeros(lista))",
+        "detail": "ejercicios.suma",
+        "documentation": {}
+    },
+    {
+        "label": "correcto",
+        "kind": 2,
+        "importPath": "listas.capas.mensajes",
+        "description": "listas.capas.mensajes",
+        "peekOfCode": "def correcto(texto,indice):\n    mensaje=f'''\nla palabra que buscas es {texto}, \ny su indice es {indice}\n'''\n    return mensaje\ndef error(mensaje):\n    return mensaje",
+        "detail": "listas.capas.mensajes",
+        "documentation": {}
+    },
+    {
+        "label": "error",
+        "kind": 2,
+        "importPath": "listas.capas.mensajes",
+        "description": "listas.capas.mensajes",
+        "peekOfCode": "def error(mensaje):\n    return mensaje",
+        "detail": "listas.capas.mensajes",
+        "documentation": {}
+    },
+    {
+        "label": "textolargo",
+        "kind": 2,
+        "importPath": "listas.capas_todoenuno",
+        "description": "listas.capas_todoenuno",
+        "peekOfCode": "def textolargo(array):\n    longitudtexto=0\n    mostrarfruta=''\n    for index in range(0, len(array)):\n        if len(array[index]) > longitudtexto:\n            longitudtexto=len(array[index])\n            mostrarfruta=array[index]\n            mostrarfruta=longitudtexto[index]\n            indice==index\n    return mostrarfruta",
+        "detail": "listas.capas_todoenuno",
+        "documentation": {}
+    },
+    {
+        "label": "crear_lista_frutas",
+        "kind": 2,
+        "importPath": "listas.funcionobjeto",
+        "description": "listas.funcionobjeto",
+        "peekOfCode": "def crear_lista_frutas(lista):\n    lista_fruta=[]\n    for pocicion,elemento in enumerate(lista):\n        fruta={\n            'longitud':len(elemento),\n            'valor':elemento,\n            'pocicion':pocicion\n        }\n        lista_fruta.append(fruta)\n    return lista_fruta",
+        "detail": "listas.funcionobjeto",
+        "documentation": {}
+    },
+    {
+        "label": "numeros_par",
+        "kind": 2,
+        "importPath": "listas.lista de numero",
+        "description": "listas.lista de numero",
+        "peekOfCode": "def numeros_par(lista):\n    nueva_lista=[]\n    for _,num in enumerate(lista):\n        if num%2==0:\n            nueva_lista.append(num)\n    return nueva_lista\nprint(numeros_par(listanum))",
+        "detail": "listas.lista de numero",
+        "documentation": {}
+    },
+    {
+        "label": "alumnos",
+        "kind": 2,
+        "importPath": "listas.listanombreedad",
+        "description": "listas.listanombreedad",
+        "peekOfCode": "def alumnos(nombre,edad):\n    alumnos=[]\n    for i in range(len(nombre)):\n        alumno={\n            'nombre':nombre[i],\n            'edad':edad[i],\n            'completo':f\"{nombre[i]} {edad[i]}\"\n        }\n        alumnos.append(alumno)\n    return alumnos",
+        "detail": "listas.listanombreedad",
+        "documentation": {}
+    },
+    {
+        "label": "letra",
+        "kind": 2,
+        "importPath": "listas.pedir texto",
+        "description": "listas.pedir texto",
+        "peekOfCode": "def letra(array:str)->int:\n    nuevo_texto=0\n    for _ in list(array):\n        if _ =='a':\n            nuevo_texto +=1\n    return nuevo_texto\nprint(f\"El texto tiene: {letra(texto)} vocales a\")",
+        "detail": "listas.pedir texto",
+        "documentation": {}
+    },
+    {
+        "label": "Puesto_mercado",
+        "kind": 6,
+        "importPath": "nuevo semestre.POO_LPS.ejercicios",
+        "description": "nuevo semestre.POO_LPS.ejercicios",
+        "peekOfCode": "class Puesto_mercado:\n   nombre_lugar='mercadoNuevo'\ndef __init__(self,recarga,fruta,ropa,abarrote,limpieza):\n    self.recarga=recarga\n    self.fruta=fruta\n    self.ropa=ropa\n    self.abarrote=abarrote\n    self.limpieza=limpieza\ndef recarguita(self,recarga):\n    print(f'la recaga sera de: {self.recarga}')",
+        "detail": "nuevo semestre.POO_LPS.ejercicios",
+        "documentation": {}
+    },
+    {
+        "label": "recarguita",
+        "kind": 2,
+        "importPath": "nuevo semestre.POO_LPS.ejercicios",
+        "description": "nuevo semestre.POO_LPS.ejercicios",
+        "peekOfCode": "def recarguita(self,recarga):\n    print(f'la recaga sera de: {self.recarga}')\n    return print('\"gracias por su rerga\"') \ndef fruts(self,fruta):\n    print(f'a cuanto me da la {self.fruta}')\n    return('¡Gracias!')\ndef ropas(self,ropa):\n    print(f'disculpe! tiene{self.ropa}')\n    return('¡Gracias!')\ndef abarrots(self,abarrote):",
+        "detail": "nuevo semestre.POO_LPS.ejercicios",
+        "documentation": {}
+    },
+    {
+        "label": "fruts",
+        "kind": 2,
+        "importPath": "nuevo semestre.POO_LPS.ejercicios",
+        "description": "nuevo semestre.POO_LPS.ejercicios",
+        "peekOfCode": "def fruts(self,fruta):\n    print(f'a cuanto me da la {self.fruta}')\n    return('¡Gracias!')\ndef ropas(self,ropa):\n    print(f'disculpe! tiene{self.ropa}')\n    return('¡Gracias!')\ndef abarrots(self,abarrote):\n    print(f'usted vende:{self.abarrote}')\n    return('¡Gracias!')\ndef limpiar(self,limpieza):",
+        "detail": "nuevo semestre.POO_LPS.ejercicios",
+        "documentation": {}
+    },
+    {
+        "label": "ropas",
+        "kind": 2,
+        "importPath": "nuevo semestre.POO_LPS.ejercicios",
+        "description": "nuevo semestre.POO_LPS.ejercicios",
+        "peekOfCode": "def ropas(self,ropa):\n    print(f'disculpe! tiene{self.ropa}')\n    return('¡Gracias!')\ndef abarrots(self,abarrote):\n    print(f'usted vende:{self.abarrote}')\n    return('¡Gracias!')\ndef limpiar(self,limpieza):\n    print(f'que producto de limpieza quieres, quiero un {self.limpieza}')\n    return('¡Gracias!')\nprint(puesto_mechita=Puesto_mercado('5 soles','manzana','medias','saco de azucar','ayudin'))",
+        "detail": "nuevo semestre.POO_LPS.ejercicios",
+        "documentation": {}
+    },
+    {
+        "label": "abarrots",
+        "kind": 2,
+        "importPath": "nuevo semestre.POO_LPS.ejercicios",
+        "description": "nuevo semestre.POO_LPS.ejercicios",
+        "peekOfCode": "def abarrots(self,abarrote):\n    print(f'usted vende:{self.abarrote}')\n    return('¡Gracias!')\ndef limpiar(self,limpieza):\n    print(f'que producto de limpieza quieres, quiero un {self.limpieza}')\n    return('¡Gracias!')\nprint(puesto_mechita=Puesto_mercado('5 soles','manzana','medias','saco de azucar','ayudin'))\nprint(puesto_la_gringa=Puesto_mercado('10 soles','naranja','mediaspantalon','saco de aroz','patito'))\nprint(puesto_ojo_de_uva=Puesto_mercado('20 soles','pera','casaca','fideos por mayor','lejia'))\nprint(puesto_mechita.recaga())",
+        "detail": "nuevo semestre.POO_LPS.ejercicios",
+        "documentation": {}
+    },
+    {
+        "label": "limpiar",
+        "kind": 2,
+        "importPath": "nuevo semestre.POO_LPS.ejercicios",
+        "description": "nuevo semestre.POO_LPS.ejercicios",
+        "peekOfCode": "def limpiar(self,limpieza):\n    print(f'que producto de limpieza quieres, quiero un {self.limpieza}')\n    return('¡Gracias!')\nprint(puesto_mechita=Puesto_mercado('5 soles','manzana','medias','saco de azucar','ayudin'))\nprint(puesto_la_gringa=Puesto_mercado('10 soles','naranja','mediaspantalon','saco de aroz','patito'))\nprint(puesto_ojo_de_uva=Puesto_mercado('20 soles','pera','casaca','fideos por mayor','lejia'))\nprint(puesto_mechita.recaga())",
+        "detail": "nuevo semestre.POO_LPS.ejercicios",
+        "documentation": {}
+    },
+    {
+        "label": "Celular",
+        "kind": 6,
+        "importPath": "nuevo semestre.POO_LPS.main",
+        "description": "nuevo semestre.POO_LPS.main",
+        "peekOfCode": "class Celular:\n    # atributos de tipo clase\n    # que son iguale para todos los objetos\n    #que se creen\n    familia='Smart Phone'\n    # atributos de instancia\n    # son atrivutos propias del objeto\n    # creamos una funcion nicializandolo\n    def __init__(self,marca,modelo,imei,nrocelular):\n        self.marca=marca",
+        "detail": "nuevo semestre.POO_LPS.main",
+        "documentation": {}
+    },
+    {
+        "label": "comprobar_dato",
+        "kind": 2,
+        "importPath": "nuevo_semestre.Interfaces_HDS.ejercicio",
+        "description": "nuevo_semestre.Interfaces_HDS.ejercicio",
+        "peekOfCode": "def comprobar_dato():\n    tex1=text_usuario.get()\n    contra=int(text_contraseña.get())\n    if tex1==usuario and contra==contraseña:\n        mensaje=Label(cuadro_dato,text=\"bienvenido :)\")\n        mensaje.pack()\n    else:\n        mensaje=Label(cuadro_dato,text=\"incorrecto :)\")\n        mensaje.pack()\nusuario=\"Jhonatan\"",
+        "detail": "nuevo_semestre.Interfaces_HDS.ejercicio",
+        "documentation": {}
+    },
+    {
+        "label": "captura_dato",
+        "kind": 2,
+        "importPath": "nuevo_semestre.Interfaces_HDS.interfas_cinco",
+        "description": "nuevo_semestre.Interfaces_HDS.interfas_cinco",
+        "peekOfCode": "def captura_dato():\n    text=text_nombre.get()\n    mensaje=Label(ventana,text=f\"hola,{text}\")\n    mensaje.pack()\netiqueta=Label(ventana,text=\"intruduce tu nombre: \")\netiqueta.pack()\ntext_nombre=Entry(ventana)\ntext_nombre.config(bg=\"blue\",fg=\"black\")\ntext_nombre.pack()\nboton_capturar=Button(ventana,text=\"enviar\",command=captura_dato)",
+        "detail": "nuevo_semestre.Interfaces_HDS.interfas_cinco",
+        "documentation": {}
+    },
+    {
+        "label": "ventana",
+        "kind": 5,
+        "importPath": "nuevo_semestre.Interfaces_HDS.maine",
+        "description": "nuevo_semestre.Interfaces_HDS.maine",
+        "peekOfCode": "ventana = tk.Tk()\nventana.title(\"Cuadros con Tkinter\")\nventana.geometry(\"400x300\")\n# Crear un Frame para los cuadrados azules\nframe_azules = tk.Frame(ventana)\nframe_azules.pack()\n# Cuadros azules\nazul1 = tk.Canvas(frame_azules, width=100, height=100, bg=\"blue\")\nazul1.pack(side=\"left\")\nazul2 = tk.Canvas(frame_azules, width=100, height=100, bg=\"blue\")",
+        "detail": "nuevo_semestre.Interfaces_HDS.maine",
+        "documentation": {}
+    },
+    {
+        "label": "frame_azules",
+        "kind": 5,
+        "importPath": "nuevo_semestre.Interfaces_HDS.maine",
+        "description": "nuevo_semestre.Interfaces_HDS.maine",
+        "peekOfCode": "frame_azules = tk.Frame(ventana)\nframe_azules.pack()\n# Cuadros azules\nazul1 = tk.Canvas(frame_azules, width=100, height=100, bg=\"blue\")\nazul1.pack(side=\"left\")\nazul2 = tk.Canvas(frame_azules, width=100, height=100, bg=\"blue\")\nazul2.pack(side=\"left\")\n# Rectángulo horizontal\nrectangulo = tk.Canvas(ventana, width=200, height=50, bg=\"green\")  # Puedes cambiar el color a tu preferencia\nrectangulo.pack()",
+        "detail": "nuevo_semestre.Interfaces_HDS.maine",
+        "documentation": {}
+    },
+    {
+        "label": "azul1",
+        "kind": 5,
+        "importPath": "nuevo_semestre.Interfaces_HDS.maine",
+        "description": "nuevo_semestre.Interfaces_HDS.maine",
+        "peekOfCode": "azul1 = tk.Canvas(frame_azules, width=100, height=100, bg=\"blue\")\nazul1.pack(side=\"left\")\nazul2 = tk.Canvas(frame_azules, width=100, height=100, bg=\"blue\")\nazul2.pack(side=\"left\")\n# Rectángulo horizontal\nrectangulo = tk.Canvas(ventana, width=200, height=50, bg=\"green\")  # Puedes cambiar el color a tu preferencia\nrectangulo.pack()\nrectangulo = tk.Canvas(ventana, width=200, height=50, bg=\"red\")  # Puedes cambiar el color a tu preferencia\nrectangulo.pack()\n# Crear un Frame para los cuadrados rojos pequeños",
+        "detail": "nuevo_semestre.Interfaces_HDS.maine",
+        "documentation": {}
+    },
+    {
+        "label": "azul2",
+        "kind": 5,
+        "importPath": "nuevo_semestre.Interfaces_HDS.maine",
+        "description": "nuevo_semestre.Interfaces_HDS.maine",
+        "peekOfCode": "azul2 = tk.Canvas(frame_azules, width=100, height=100, bg=\"blue\")\nazul2.pack(side=\"left\")\n# Rectángulo horizontal\nrectangulo = tk.Canvas(ventana, width=200, height=50, bg=\"green\")  # Puedes cambiar el color a tu preferencia\nrectangulo.pack()\nrectangulo = tk.Canvas(ventana, width=200, height=50, bg=\"red\")  # Puedes cambiar el color a tu preferencia\nrectangulo.pack()\n# Crear un Frame para los cuadrados rojos pequeños\nframe_rojos = tk.Frame(ventana)\nframe_rojos.pack()",
+        "detail": "nuevo_semestre.Interfaces_HDS.maine",
+        "documentation": {}
+    },
+    {
+        "label": "rectangulo",
+        "kind": 5,
+        "importPath": "nuevo_semestre.Interfaces_HDS.maine",
+        "description": "nuevo_semestre.Interfaces_HDS.maine",
+        "peekOfCode": "rectangulo = tk.Canvas(ventana, width=200, height=50, bg=\"green\")  # Puedes cambiar el color a tu preferencia\nrectangulo.pack()\nrectangulo = tk.Canvas(ventana, width=200, height=50, bg=\"red\")  # Puedes cambiar el color a tu preferencia\nrectangulo.pack()\n# Crear un Frame para los cuadrados rojos pequeños\nframe_rojos = tk.Frame(ventana)\nframe_rojos.pack()\n# Cuadros rojos debajo del rectángulo\nrojo1 = tk.Canvas(frame_rojos, width=50, height=50, bg=\"red\")\nrojo1.pack(side=\"left\")",
+        "detail": "nuevo_semestre.Interfaces_HDS.maine",
+        "documentation": {}
+    },
+    {
+        "label": "rectangulo",
+        "kind": 5,
+        "importPath": "nuevo_semestre.Interfaces_HDS.maine",
+        "description": "nuevo_semestre.Interfaces_HDS.maine",
+        "peekOfCode": "rectangulo = tk.Canvas(ventana, width=200, height=50, bg=\"red\")  # Puedes cambiar el color a tu preferencia\nrectangulo.pack()\n# Crear un Frame para los cuadrados rojos pequeños\nframe_rojos = tk.Frame(ventana)\nframe_rojos.pack()\n# Cuadros rojos debajo del rectángulo\nrojo1 = tk.Canvas(frame_rojos, width=50, height=50, bg=\"red\")\nrojo1.pack(side=\"left\")\nrojo2 = tk.Canvas(frame_rojos, width=50, height=50, bg=\"red\")\nrojo2.pack(side=\"left\")",
+        "detail": "nuevo_semestre.Interfaces_HDS.maine",
+        "documentation": {}
+    },
+    {
+        "label": "frame_rojos",
+        "kind": 5,
+        "importPath": "nuevo_semestre.Interfaces_HDS.maine",
+        "description": "nuevo_semestre.Interfaces_HDS.maine",
+        "peekOfCode": "frame_rojos = tk.Frame(ventana)\nframe_rojos.pack()\n# Cuadros rojos debajo del rectángulo\nrojo1 = tk.Canvas(frame_rojos, width=50, height=50, bg=\"red\")\nrojo1.pack(side=\"left\")\nrojo2 = tk.Canvas(frame_rojos, width=50, height=50, bg=\"red\")\nrojo2.pack(side=\"left\")\nrojo3 = tk.Canvas(frame_rojos, width=50, height=50, bg=\"red\")\nrojo3.pack(side=\"left\")\nrojo4 = tk.Canvas(frame_rojos, width=50, height=50, bg=\"red\")",
+        "detail": "nuevo_semestre.Interfaces_HDS.maine",
+        "documentation": {}
+    },
+    {
+        "label": "rojo1",
+        "kind": 5,
+        "importPath": "nuevo_semestre.Interfaces_HDS.maine",
+        "description": "nuevo_semestre.Interfaces_HDS.maine",
+        "peekOfCode": "rojo1 = tk.Canvas(frame_rojos, width=50, height=50, bg=\"red\")\nrojo1.pack(side=\"left\")\nrojo2 = tk.Canvas(frame_rojos, width=50, height=50, bg=\"red\")\nrojo2.pack(side=\"left\")\nrojo3 = tk.Canvas(frame_rojos, width=50, height=50, bg=\"red\")\nrojo3.pack(side=\"left\")\nrojo4 = tk.Canvas(frame_rojos, width=50, height=50, bg=\"red\")\nrojo4.pack(side=\"left\")\n# Iniciar la aplicación\nventana.mainloop()",
+        "detail": "nuevo_semestre.Interfaces_HDS.maine",
+        "documentation": {}
+    },
+    {
+        "label": "rojo2",
+        "kind": 5,
+        "importPath": "nuevo_semestre.Interfaces_HDS.maine",
+        "description": "nuevo_semestre.Interfaces_HDS.maine",
+        "peekOfCode": "rojo2 = tk.Canvas(frame_rojos, width=50, height=50, bg=\"red\")\nrojo2.pack(side=\"left\")\nrojo3 = tk.Canvas(frame_rojos, width=50, height=50, bg=\"red\")\nrojo3.pack(side=\"left\")\nrojo4 = tk.Canvas(frame_rojos, width=50, height=50, bg=\"red\")\nrojo4.pack(side=\"left\")\n# Iniciar la aplicación\nventana.mainloop()",
+        "detail": "nuevo_semestre.Interfaces_HDS.maine",
+        "documentation": {}
+    },
+    {
+        "label": "rojo3",
+        "kind": 5,
+        "importPath": "nuevo_semestre.Interfaces_HDS.maine",
+        "description": "nuevo_semestre.Interfaces_HDS.maine",
+        "peekOfCode": "rojo3 = tk.Canvas(frame_rojos, width=50, height=50, bg=\"red\")\nrojo3.pack(side=\"left\")\nrojo4 = tk.Canvas(frame_rojos, width=50, height=50, bg=\"red\")\nrojo4.pack(side=\"left\")\n# Iniciar la aplicación\nventana.mainloop()",
+        "detail": "nuevo_semestre.Interfaces_HDS.maine",
+        "documentation": {}
+    },
+    {
+        "label": "rojo4",
+        "kind": 5,
+        "importPath": "nuevo_semestre.Interfaces_HDS.maine",
+        "description": "nuevo_semestre.Interfaces_HDS.maine",
+        "peekOfCode": "rojo4 = tk.Canvas(frame_rojos, width=50, height=50, bg=\"red\")\nrojo4.pack(side=\"left\")\n# Iniciar la aplicación\nventana.mainloop()",
+        "detail": "nuevo_semestre.Interfaces_HDS.maine",
+        "documentation": {}
+    },
+    {
+        "label": "Producto",
+        "kind": 6,
+        "importPath": "nuevo_semestre.POO_LPS.ejemplos",
+        "description": "nuevo_semestre.POO_LPS.ejemplos",
+        "peekOfCode": "class Producto:\n    # atributos de instancia\n    def init(self,nombre,descripcion,stock,\n    unidad,precio,moneda=\"soles\"):\n        self.nombre     =nombre\n        self.descripcion=descripcion\n        self.stock      =stock\n        self.precio     =precio\n        self.moneda     =moneda\n    #creacion de metodos",
+        "detail": "nuevo_semestre.POO_LPS.ejemplos",
+        "documentation": {}
+    },
+    {
+        "label": "Celular",
+        "kind": 6,
+        "importPath": "nuevo_semestre.POO_LPS.ejercicios",
+        "description": "nuevo_semestre.POO_LPS.ejercicios",
+        "peekOfCode": "class Celular: \n    marca='samsung'\n    propietario='julian'\n    color='red'\n    version='A33'\n    def llamar(self, nombre): \n        contacto=f\"llamando a {nombre}, de tu lista de contactos.\"\n        return contacto\n    def escribir(self, txt, person):  \n        texto= f\"tu mensaje en messenger es <<{txt}>> para {person}.\"",
+        "detail": "nuevo_semestre.POO_LPS.ejercicios",
+        "documentation": {}
+    },
+    {
+        "label": "Vehiculo",
+        "kind": 6,
+        "importPath": "nuevo_semestre.POO_LPS.ejercicios",
+        "description": "nuevo_semestre.POO_LPS.ejercicios",
+        "peekOfCode": "class Vehiculo: \n    marca='mercedes'\n    propietario='you'\n    color='blue'\n    serie='bens-865'\n    def acelerar(self, km): \n        velocidad= f\"vas a {km}km/h de velocidad\"\n        return velocidad\n    def frenar(self,):   \n        return \"frenaste\"",
+        "detail": "nuevo_semestre.POO_LPS.ejercicios",
+        "documentation": {}
+    },
+    {
+        "label": "Avion",
+        "kind": 6,
+        "importPath": "nuevo_semestre.POO_LPS.ejercicios",
+        "description": "nuevo_semestre.POO_LPS.ejercicios",
+        "peekOfCode": "class Avion: \n    marca='Boeing'\n    propietario='you'\n    color='white'\n    serie='Boeing'\n    def despegar(self, km): \n        velocidad= f\"vas a {km}km/h de velocidad\"\n        return velocidad\n    def aterrizar(self,):   \n        return \"aterrisaste bien\"",
+        "detail": "nuevo_semestre.POO_LPS.ejercicios",
+        "documentation": {}
+    },
+    {
+        "label": "Heroe",
+        "kind": 6,
+        "importPath": "nuevo_semestre.POO_LPS.ejercicios",
+        "description": "nuevo_semestre.POO_LPS.ejercicios",
+        "peekOfCode": "class Heroe: \n    nombre='axe'\n    rol='tanque'\n    fuerza=25\n    agilidad=10\n    intiligencia=10\n    def defender(self, hero): \n        tanq= f\"su rol es defender a {hero} con menos vida\"\n        return tanq\nrespuesta=Heroe()",
+        "detail": "nuevo_semestre.POO_LPS.ejercicios",
+        "documentation": {}
+    },
+    {
+        "label": "PC",
+        "kind": 6,
+        "importPath": "nuevo_semestre.POO_LPS.ejercicios",
+        "description": "nuevo_semestre.POO_LPS.ejercicios",
+        "peekOfCode": "class PC:\n    marca='HP'\n    modelo='Pavilion'\n    procesador='Intel Core I7'\n    almacenamiento='1TB'\n    memoria='16GB'\n    def encender(self):\n        enciende=(\"la PC se esta encendiendo....\")\n        return enciende\n    def apagar(self):",
+        "detail": "nuevo_semestre.POO_LPS.ejercicios",
+        "documentation": {}
+    },
+    {
+        "label": "Impresora",
+        "kind": 6,
+        "importPath": "nuevo_semestre.POO_LPS.ejercicios",
+        "description": "nuevo_semestre.POO_LPS.ejercicios",
+        "peekOfCode": "class Impresora:\n    marca='HP'\n    modelo='Laser Jet'\n    def imprimir(self,texto):\n        imprim=f\"Imprimiendo '{texto}' en la Impresora {self.marca} {self.modelo}\"\n        return imprim\nimpresora=Impresora()\nprint(impresora.imprimir(\"hola mundo\") )\n# haciendo uso de la poo crear un objeto para emitir una factura\nclass Factura:",
+        "detail": "nuevo_semestre.POO_LPS.ejercicios",
+        "documentation": {}
+    },
+    {
+        "label": "Factura",
+        "kind": 6,
+        "importPath": "nuevo_semestre.POO_LPS.ejercicios",
+        "description": "nuevo_semestre.POO_LPS.ejercicios",
+        "peekOfCode": "class Factura:\n    def __init__(self, numero, cliente, total):\n        self.numero = numero\n        self.cliente = cliente\n        self.total = total\n    def imprimir_factura(self):\n        print(\"Factura número:\", self.numero)\n        print(\"Cliente:\", self.cliente)\n        print(\"Total:\", self.total)\nfactura1 = Factura('001', \"Cliente A\", 100.50)",
+        "detail": "nuevo_semestre.POO_LPS.ejercicios",
+        "documentation": {}
+    },
+    {
+        "label": "factura1",
+        "kind": 5,
+        "importPath": "nuevo_semestre.POO_LPS.ejercicios",
+        "description": "nuevo_semestre.POO_LPS.ejercicios",
+        "peekOfCode": "factura1 = Factura('001', \"Cliente A\", 100.50)\nprint(factura1.imprimir_factura())",
+        "detail": "nuevo_semestre.POO_LPS.ejercicios",
+        "documentation": {}
+    },
+    {
+        "label": "perro",
+        "kind": 6,
+        "importPath": "nuevo_semestre.POO_LPS.main",
+        "description": "nuevo_semestre.POO_LPS.main",
+        "peekOfCode": "class perro: \n    nombre='body'\n    edad='2 meses'\n    color='cheqche'\n    raza='chusterrier'\n    def ladrar(self): #siempre tiene que devolver un valor\n        return \"guau guau mascota\"\n    def corre(self,pasos): # siempre que para indicar que el primer parametro ( primer_parametro, segundo_parametro, etc) se asocia internamente con la clase,  \n        responde= f\"corriste {pasos}, pasos.\"\n        return responde",
+        "detail": "nuevo_semestre.POO_LPS.main",
+        "documentation": {}
+    },
+    {
+        "label": "producto",
+        "kind": 6,
+        "importPath": "nuevo_semestre.POO_LPS.main",
+        "description": "nuevo_semestre.POO_LPS.main",
+        "peekOfCode": "class producto:\n    pass",
+        "detail": "nuevo_semestre.POO_LPS.main",
+        "documentation": {}
+    },
+    {
+        "label": "Tiendas_comerciales",
+        "kind": 6,
+        "importPath": "nuevo_semestre.POO_LPS.tarea",
+        "description": "nuevo_semestre.POO_LPS.tarea",
+        "peekOfCode": "class Tiendas_comerciales:\n    def tienda_gerente(self,td_negocios,nombre_gerente):\n        respuesta=list(filter(lambda el:el[\"gerente\"]==nombre_gerente,td_negocios))\n        return respuesta\n    def tienda_de_categorias(self,td_negocios):\n        respuesta=list(filter(lambda el:len(el[\"categoria\"])>2,td_negocios))\n        return respuesta\n    def ruc_nombre(self,td_negocios):\n        respuesta=list(map(lambda el:{\"ruc\":el[\"ruc\"],\"nombre\":el[\"nombre\"]},td_negocios))\n        return respuesta",
+        "detail": "nuevo_semestre.POO_LPS.tarea",
+        "documentation": {}
+    },
+    {
+        "label": "intentos",
+        "kind": 5,
+        "importPath": "trabajo.juego",
+        "description": "trabajo.juego",
+        "peekOfCode": "intentos = 0\nprint (\"JUEGO DE AZAR....\")\nprint (\"Cual es tu nombre?...\")\nnombre =input(\"ingrsa tu nombre: \")\nx = (1, 20)\nprint (\"Hola \" + nombre + \", Bienvenido a mi primer juego....\" )\nwhile intentos < 6:\n    intentos = intentos + 1\nprint (\"Elige un numero del 1 al 20\")\nnumero = \"\"",
+        "detail": "trabajo.juego",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "trabajo.juego",
+        "description": "trabajo.juego",
+        "peekOfCode": "x = (1, 20)\nprint (\"Hola \" + nombre + \", Bienvenido a mi primer juego....\" )\nwhile intentos < 6:\n    intentos = intentos + 1\nprint (\"Elige un numero del 1 al 20\")\nnumero = \"\"\nnumero = int (input(numero))\nif numero < 21:\n    print (\"Tu numero es mas bajo\")\n    if numero > 0:",
+        "detail": "trabajo.juego",
+        "documentation": {}
+    },
+    {
+        "label": "numero",
+        "kind": 5,
+        "importPath": "trabajo.juego",
+        "description": "trabajo.juego",
+        "peekOfCode": "numero = \"\"\nnumero = int (input(numero))\nif numero < 21:\n    print (\"Tu numero es mas bajo\")\n    if numero > 0:\n        print (\"Tu numero es mas alto\")\n    if numero == 10:\n        print (\"Eres un genio....\")\n        print (nombre + \" lo lograste con %d intentos\" % (intentos))\n        print (\"Nos vemos....\")",
+        "detail": "trabajo.juego",
+        "documentation": {}
+    },
+    {
+        "label": "numero",
+        "kind": 5,
+        "importPath": "trabajo.juego",
+        "description": "trabajo.juego",
+        "peekOfCode": "numero = int (input(numero))\nif numero < 21:\n    print (\"Tu numero es mas bajo\")\n    if numero > 0:\n        print (\"Tu numero es mas alto\")\n    if numero == 10:\n        print (\"Eres un genio....\")\n        print (nombre + \" lo lograste con %d intentos\" % (intentos))\n        print (\"Nos vemos....\")\nelse:",
+        "detail": "trabajo.juego",
+        "documentation": {}
+    }
+]
