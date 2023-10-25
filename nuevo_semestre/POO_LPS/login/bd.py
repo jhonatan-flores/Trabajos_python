@@ -1,9 +1,25 @@
-# crear una lista de objetos , cada objeto tendra los datos de una persona
-# dni, nombre, fecha de nacimiento,edad,usuario, pasword
-# registrar 5 registros max 10
-usuarioss=[
+# crear una lista de objetos
+# cada objeto tendra los datos de una persona
+# nombre, edad f_naciminento, dni, usuario, password
+# minimo 5 registros maximo 10 registros
+usuarios=[
     {
-        "id":1,
+        "dni":71239102,
+        "nombre":"moises",
+        "f_nacimiento":"28/08/2003",
+        "edad":"",
+        "usuario":"michuchas",
+        "password":"12349575"
+    },
+    {
+        "dni":71119102,
+        "nombre":"cristian",
+        "f_nacimiento":"11/04/2004",
+        "edad":"",
+        "usuario":"asta",
+        "password":"12344321"
+    },
+    {
         "dni":71470376,
         "nombre":"jhonatan",
         "f_nacimiento":"16/10/2003",
@@ -12,39 +28,59 @@ usuarioss=[
         "password":"123456789"
     },
     {
-        "id":2,
-        "dni":71470676,
-        "nombre":"crhistian",
-        "f_nacimiento":12/4/2003,
-        "edad":"",
-        "usuario":"admin1",
-        "password":"113456789"
-    },
-    {
-        "id":3,
-        "dni":71470576,
-        "nombre":"yerald",
-        "f_nacimiento":1/1/2000,
-        "edad":"",
-        "usuario":"admin2",
-        "password":"124456789"
-    },
-    {
-        "id":4,
-        "dni":71470276,
+        "dni":73439102,
         "nombre":"edwin",
-        "f_nacimiento":6/2/2005,
+        "f_nacimiento":"10/08/1790",
         "edad":"",
-        "usuario":"admin3",
-        "password":"123556789"
+        "usuario":"cebolla",
+        "password":"12345434"
     },
     {
-        "id":5,
-        "dni":71470176,
+        "dni":77869102,
         "nombre":"china",
-        "f_nacimiento":9/8/1993,
+        "f_nacimiento":"15/05/2003",
         "edad":"",
-        "usuario":"admin4",
-        "password":"123466789"
+        "usuario":"chinita",
+        "password":"123454689"
+    },
+    {
+        "dni":78899102,
+        "nombre":"adan",
+        "f_nacimiento":"30/05/1995",
+        "edad":"",
+        "usuario":"sadan",
+        "password":"12454789"
+    },
+    {
+        "dni":79499102,
+        "nombre":"feliciana",
+        "f_nacimiento":"10/10/2000",
+        "edad":"",
+        "usuario":"felis",
+        "password":"4325451"
+    },
+    {
+        "dni":71111102,
+        "nombre":"yony",
+        "f_nacimiento":"20/01/2001",
+        "edad":"",
+        "usuario":"tupipi",
+        "password":"2344564561"
+    },
+    {
+        "dni":71456102,
+        "nombre":"nadine",
+        "f_nacimiento":"18/01/1000",
+        "edad":"",
+        "usuario":"calamar",
+        "password":"8745675621"
+    },
+    {
+        "dni":71488102,
+        "nombre":"jory",
+        "f_nacimiento":"27/08/1995",
+        "edad":"",
+        "usuario":"jori",
+        "password":"17657633"
     }
 ]
