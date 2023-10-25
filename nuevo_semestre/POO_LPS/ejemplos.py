@@ -46,8 +46,7 @@ class Producto:
             "moneda"     :self    .moneda
         
         }
-        registro_producto=producto.append
-        (producto_nuevo)
+        registro_producto=producto.append(producto_nuevo)
         return f"el sieguiente producto se registro exitosamente{producto_nuevo}"
         
     def mostrar_producto(self,id):

@@ -1,0 +1,50 @@
+# crear una lista de objetos , cada objeto tendra los datos de una persona
+# dni, nombre, fecha de nacimiento,edad,usuario, pasword
+# registrar 5 registros max 10
+usuarioss=[
+    {
+        "id":1,
+        "dni":71470376,
+        "nombre":"jhonatan",
+        "f_nacimiento":16/10/2003,
+        "edad":"",
+        "usuario":"admin",
+        "password":"123456789"
+    },
+    {
+        "id":2,
+        "dni":71470676,
+        "nombre":"crhistian",
+        "f_nacimiento":12/4/2003,
+        "edad":"",
+        "usuario":"admin1",
+        "password":"113456789"
+    },
+    {
+        "id":3,
+        "dni":71470576,
+        "nombre":"yerald",
+        "f_nacimiento":1/1/2000,
+        "edad":"",
+        "usuario":"admin2",
+        "password":"124456789"
+    },
+    {
+        "id":4,
+        "dni":71470276,
+        "nombre":"edwin",
+        "f_nacimiento":6/2/2005,
+        "edad":"",
+        "usuario":"admin3",
+        "password":"123556789"
+    },
+    {
+        "id":5,
+        "dni":71470176,
+        "nombre":"china",
+        "f_nacimiento":9/8/1993,
+        "edad":"",
+        "usuario":"admin4",
+        "password":"123466789"
+    }
+]
