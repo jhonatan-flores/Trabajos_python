@@ -5,7 +5,7 @@ from bd import * #la variable usuario de mi bd  estara disponible en este archiv
 ## actualizar edad del usuario
 ## verificar si el usuario esta registrado o existe en mis registros
 # validar usuario y password 
-class usuario:
+class Usuario:
     def __init__(self,dni,nombre, f_nacimiento,edad,usuario,password):
         self.id          =id
         self.dni         =dni
@@ -14,14 +14,23 @@ class usuario:
         self.edad        =edad
         self.usuario     =usuario
         self.password    =password
-    
-    def actualizar_edad(self,bd_usuarioss,edad):
+    def mostrar_usuario(self,ide):
         pass
-        edad_actual=list()
-        return f"""
-    la edad actual es: {edad_actual}
-    """
+        resultado=list(filter(lambda par:par["dni"]==ide,usuarioss))
+        return f"""Aqui tienes la informacion del usuario que buscaste:
+    --------------------------------------------------------------------
+    {resultado}"""
+    def actualizar_edad(self,clave,valor):
+        pass
+        for Usuario in usuarioss:
+            if Usuario['dni']==self.dni:
+                Usuario[clave]=valor
+                return 'se actualizó.'
+        return 'usuario no encontrado.'
     def verificar_usuario(self,bd_usuarioss,usuario):
         pass
     def validar_usuario(self,bd_usuarioss,usuario,password):
         pass
+actu=Usuario(71470376,"jhonatan","16/10/2003",None,"admin","123456789")
+print(actu.actualizar_edad("edad",20))
+print(actu.mostrar_usuario(71470376))

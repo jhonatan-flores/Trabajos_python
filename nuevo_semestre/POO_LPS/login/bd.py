@@ -6,7 +6,7 @@ usuarioss=[
         "id":1,
         "dni":71470376,
         "nombre":"jhonatan",
-        "f_nacimiento":16/10/2003,
+        "f_nacimiento":"16/10/2003",
         "edad":"",
         "usuario":"admin",
         "password":"123456789"
