@@ -17,14 +17,22 @@ def nuevo(ventana):
     apellido=ventana.apellidos_texto.get()
     celular=ventana.celular_texto.get()
     ventana.tabla_datos.insert("",END,text=nombre,values=(apellido,celular))
+    date = {
+        "Nombre":nombre,
+        "Apellido":apellido,
+        "Celular":celular
+    }
+    bd.insertarUno('Usuarios',date)
     showinfo(title="Nuevo",message="Nuevo registro agregado")
     limpiar(ventana)
 
 def eliminar(ventana):
     item_seleccionado = ventana.tabla_datos.selection()
+    dato = ventana.tabla_datos.item(item_seleccionado)['text']
     print(item_seleccionado)
     if item_seleccionado:
         ventana.tabla_datos.delete(item_seleccionado)
+        bd.eliminar('Usuarios',where=f'id= "{dato}"')
         showwarning(title="ELIMINAR",message="Registro elimnado")
         limpiar(ventana)
     else:
@@ -37,16 +45,23 @@ def actualizar(ventana):
         nombre=ventana.nombre_texto.get()
         apellidos=ventana.apellidos_texto.get()
         celular=ventana.celular_texto.get()
-        elem_actualizar=ventana.tabla_datos.selection()
+        regis_actualizar=ventana.tabla_datos.selection()
+        date = ventana.tabla_datos.item(regis_actualizar)['text']
         mensaje=askyesno(title="Actualizar",message="Estas seguro que deseas actualizar?")
         if mensaje == True:
             limpiar(ventana)
-            ventana.tabla_datos.selection_remove(elem_actualizar)
-            return ventana.tabla_datos.item(elem_actualizar,text=nombre,values=(apellidos,celular))
+            su_dato = {
+                'Nombre':nombre,
+                'Apellido':apellidos,
+                'Celular':celular
+                }
+            ventana.tabla_datos.selection_remove(regis_actualizar)
+            bd.actualizar('Usuarios',su_dato,where=f'id={date}')
+            return ventana.tabla_datos.item(regis_actualizar,text=nombre,values=(apellidos,celular))
         else:
             showinfo(title="NO ACTUALIZO",message="No se  pudo actualizar ningun registro")
             limpiar(ventana)
-            ventana.tabla_datos.selection_remove(elem_actualizar)
+            ventana.tabla_datos.selection_remove(regis_actualizar)
 
 def dobleClick(ventana,event):
     elem_actualizar=ventana.tabla_datos.selection()
