@@ -39,13 +39,13 @@ class InterfazApp(Tk):
         self.cajas_botones=LabelFrame(self,text="Cajas de botones",width=150,height=430,bg=COLOR_FONDO_PRIMARIO,fg="white",font=("arial",12),relief=FLAT,pady=60)
         self.cajas_botones.grid(row=0,column=1,pady=20,padx=20)
         #boton nuevo
-        self.nuevo=Button(self.cajas_botones,command=lambda:f_nuevo(self),text="Nuevo",bg=COLOR_BOTON,fg="White",relief=FLAT,bd=0,width=20,height=2,font=("Arial",10)).pack(pady=10)
+        self.nuevo=Button(self.cajas_botones,command=lambda:nuevo(self),text="Nuevo",bg=COLOR_BOTON,fg="White",relief=FLAT,bd=0,width=20,height=2,font=("Arial",10)).pack(pady=10)
         #boton actualizar
-        self.actualizar=Button(self.cajas_botones,command=lambda: f_actualizar(self),text="Actualizar",bg=COLOR_BOTON,fg="White",relief=FLAT,bd=0,width=20,height=2,font=("Arial",10)).pack(pady=10)
+        self.actualizar=Button(self.cajas_botones,command=lambda: actualizar(self),text="Actualizar",bg=COLOR_BOTON,fg="White",relief=FLAT,bd=0,width=20,height=2,font=("Arial",10)).pack(pady=10)
         #boton eliminar
-        self.eliminar=Button(self.cajas_botones,command=lambda:f_eliminar(self),text="Eliminar",bg=COLOR_BOTON,fg="White",relief=FLAT,bd=0,width=20,height=2,font=("Arial",10)).pack(pady=10)
+        self.eliminar=Button(self.cajas_botones,command=lambda:eliminar(self),text="Eliminar",bg=COLOR_BOTON,fg="White",relief=FLAT,bd=0,width=20,height=2,font=("Arial",10)).pack(pady=10)
         #boton cancelar
-        self.cancelar=Button(self.cajas_botones,command=lambda:f_limpiar(self),text="Cancelar",bg=COLOR_BOTON,fg="White",relief=FLAT,bd=0,width=20,height=2,font=("Arial",10)).pack(pady=10)
+        self.cancelar=Button(self.cajas_botones,command=lambda:limpiar(self),text="Cancelar",bg=COLOR_BOTON,fg="White",relief=FLAT,bd=0,width=20,height=2,font=("Arial",10)).pack(pady=10)
         #FIN CAJITA DE BOTONES
         #TABLA DE DATOS
         self.caja_datos=LabelFrame(self,text="Caja de Datos",width=600,height=360,bg=COLOR_FONDO_PRIMARIO,fg="white",font=("arial",12),relief=FLAT,pady=60)
@@ -61,14 +61,14 @@ class InterfazApp(Tk):
         self.tabla_datos.heading("#1",text="Apellidos")
         self.tabla_datos.heading("#2",text="Celular")
         alumnitos=[
-            ("moises","peñadira","564646441"),
+            ("moises","peñafiel","964646441"),
             ("tarantula","medafiel","987654321"),
             ("maria","de jory","9877854321"),
-            ("nadine","guadalupe","98888654321")
+            ("nadine","atoccsa","98888654321")
         ]
         for nom,ape,cel in alumnitos:
             self.tabla_datos.insert("",END,text=nom,values=(ape,cel))
         
-        self.tabla_datos.bind("<Double-1>",lambda event:f_dobleClick(self,event))
+        self.tabla_datos.bind("<Double-1>",lambda event:dobleClick(self,event))
         self.tabla_datos.place(x=0,y=0,width=400,height=600)
         #FIN DE TABLA DE DATOS

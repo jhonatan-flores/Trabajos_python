@@ -1,4 +1,4 @@
-##Los progrmas se manejan de maneja de manera secuencial
+ ##Los progrmas se manejan de maneja de manera secuencial
 #control de flujo
 #1. CONDICIONALES
 #Se reraliza algo si se cumple cierta condicion
